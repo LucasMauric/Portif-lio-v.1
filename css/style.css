@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  color:#66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:#66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E
+
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+}
+
+
+p{
+  color:#40514E;
+  line-height: 3;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+a:hover{
+  color:#EAF6F6;
+
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.topo{
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 200px;
+  margin: 0 0 100px;
+
+
+}
+
+.nuvem-alta{
+  position:absolute;
+  right:300px;
+  top:150px;
+
+}
+.nuvem-baixa{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+
+.imag{
+  width:300px;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.skill-img{
+  margin-right:30px;
+  width: 15%;
+  float: left;
+
+}
+.violao-img{
+  width: 15%;
+  float: right;
+  margin-right:30px;
+}
+.final{
+  background-color:#66BFBF;
+  padding: 20px 0 20px;
+}
+.cor{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+.contate{
+  margin:auto 0 20px;
+}
+.botao {
+	background-color:#30e3cb;
+	border-radius:28px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.botao:hover {
+	background-color:#2bc4ad;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
